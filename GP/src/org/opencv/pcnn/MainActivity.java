@@ -9,12 +9,16 @@ import org.opencv.android.CameraBridgeViewBase.CvCameraViewListener2;
 import org.opencv.android.LoaderCallbackInterface;
 import org.opencv.android.OpenCVLoader;
 import org.opencv.core.Mat;
+import org.opencv.core.Scalar;
+import org.opencv.core.Size;
+import org.opencv.imgproc.Imgproc;
 import org.opencv.pcnn.R;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.SurfaceView;
+import android.view.WindowManager;
 
 public class MainActivity extends Activity implements CvCameraViewListener2 {
     private static final String TAG = "OCVSample::Activity";
@@ -57,7 +61,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
     public void onCreate(Bundle savedInstanceState) {
         Log.i(TAG, "called onCreate");
         super.onCreate(savedInstanceState);
-        //getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
         setContentView(R.layout.tutorial1_surface_view);
 
@@ -105,6 +109,8 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
     
     public Mat onCameraFrame(CvCameraViewFrame inputFrame) {
     	Mat rgba = inputFrame.rgba();
+    	//getTraspose(rgba);
+    	
     	if(gestureCount < GESTURE_NO){
     		if(timer.getPassedTime() >= TIME_ITERVAL){
     			timer.reset();
@@ -123,5 +129,19 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
     		}
     	}
         return rgba;
+    }
+    
+    public Mat getTraspose(Mat m){
+    	Size s = m.size();
+    	float[] mdata = new float[(int) (m.total() * m.channels())];
+		m.get(0, 0, mdata);
+    	Mat t = new Mat((int)s.width,(int)s.height, m.type());
+    	for(int i = 0 ;i < (int)s.height;++i)
+    		for(int j = 0 ;j < (int)s.width;++j){
+    			//float[] = new float[4];
+     			t.put(j, i, m.get(i, j));
+    	}
+    			
+    	return t;
     }
 }
