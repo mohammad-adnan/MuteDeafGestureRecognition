@@ -12,4 +12,20 @@
         opencv:show_fps="false"
         opencv:camera_id="any"/>
 
+    <ImageButton
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon" 
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="50dp"
+        android:background="@null"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center"
+        android:visibility="invisible"/>
+
 </FrameLayout>

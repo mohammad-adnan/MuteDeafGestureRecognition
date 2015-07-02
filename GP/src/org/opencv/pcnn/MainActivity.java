@@ -18,12 +18,21 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.SurfaceView;
+import android.view.View;
 import android.view.WindowManager;
+import android.view.animation.RotateAnimation;
+import android.view.animation.TranslateAnimation;
+import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.ProgressBar;
 
 public class MainActivity extends Activity implements CvCameraViewListener2 {
     private static final String TAG = "OCVSample::Activity";
 
     private CameraBridgeViewBase mOpenCvCameraView;
+    
+    ProgressBar ProgressBar;
+    ImageButton startButton;
     
     //PCNN data
     private Vector<Mat> images = new Vector<Mat>();
@@ -32,6 +41,8 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
     double TIME_ITERVAL = 200; //time interval in second
     int DIM = 128; //image dimension
     int GESTURE_NO = 2;
+    boolean start = false;
+    boolean finish = true;
     
     
 
@@ -66,12 +77,38 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
         setContentView(R.layout.tutorial1_surface_view);
 
         mOpenCvCameraView = (CameraBridgeViewBase) findViewById(R.id.tutorial1_activity_java_surface_view);
-
+        
         mOpenCvCameraView.setVisibility(SurfaceView.VISIBLE);
 
         mOpenCvCameraView.setCvCameraViewListener(this);
         //System.loadLibrary(org.opencv.core.Core.NATIVE_LIBRARY_NAME);
-    }
+        
+        ProgressBar = (ProgressBar) findViewById(R.id.progressBar1);
+        startButton = (ImageButton) findViewById(R.id.start);
+        startButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(finish){
+                	finish = false;
+                	start = true;
+					runOnUiThread(new Runnable() {
+						@Override
+						public void run() {
+							ProgressBar.setVisibility(View.VISIBLE);
+
+						}
+					});
+                }
+            }
+        });
+		// rotation from 0 to 90 degrees here
+//		float x = bstart.getX(),y = bstart.getY();
+//		RotateAnimation a = new RotateAnimation(0, -90, -bstart.getWidth()/(float)2, -bstart.getHeight()/(float)2);
+//		TranslateAnimation t = new TranslateAnimation(0, x, 0, y);
+//		a.setFillAfter(true);
+//		a.setDuration(0);
+//		bstart.startAnimation(a);
+//		bstart.startAnimation(t);
+	}
 
     @Override
     public void onPause()
@@ -105,13 +142,14 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
 
     public void onCameraViewStopped() {
     }
-    int gestureCount = 0;
     
+    int gestureCount = 0;
+    PCNNProcessor lastPcnnThread;
     public Mat onCameraFrame(CvCameraViewFrame inputFrame) {
     	Mat rgba = inputFrame.rgba();
     	//getTraspose(rgba);
     	
-    	if(gestureCount < GESTURE_NO){
+    	if(gestureCount < GESTURE_NO && start){
     		if(timer.getPassedTime() >= TIME_ITERVAL){
     			timer.reset();
     			images.add(rgba.clone());
@@ -125,8 +163,21 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
     			pcnnThread.setImages((Vector<Mat>)images.clone());
     			images.clear();
     			pcnnThread.start();
+    			lastPcnnThread = pcnnThread;
     			
     		}
+    	}else if(lastPcnnThread != null && !lastPcnnThread.isAlive()){
+    		start = false;
+    		gestureCount = 0;
+    		finish = true;
+    		runOnUiThread(new Runnable() {
+				@Override
+				public void run() {
+					ProgressBar.setVisibility(View.INVISIBLE);
+
+				}
+			});
+    		
     	}
         return rgba;
     }
