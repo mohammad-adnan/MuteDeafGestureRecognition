@@ -15,6 +15,7 @@ import org.opencv.imgproc.Imgproc;
 import org.opencv.pcnn.R;
 
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.SurfaceView;
@@ -33,6 +34,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
     
     ProgressBar ProgressBar;
     ImageButton startButton;
+    Context context;
     
     //PCNN data
     private Vector<Mat> images = new Vector<Mat>();
@@ -40,7 +42,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
     int FRAME_NO = 5;
     double TIME_ITERVAL = 200; //time interval in second
     int DIM = 128; //image dimension
-    int GESTURE_NO = 2;
+    int GESTURE_NO = 1;
     boolean start = false;
     boolean finish = true;
     
@@ -83,6 +85,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
         mOpenCvCameraView.setCvCameraViewListener(this);
         //System.loadLibrary(org.opencv.core.Core.NATIVE_LIBRARY_NAME);
         
+        context = this;
         ProgressBar = (ProgressBar) findViewById(R.id.progressBar1);
         startButton = (ImageButton) findViewById(R.id.start);
         startButton.setOnClickListener(new View.OnClickListener() {
@@ -161,6 +164,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
     			Log.i("PCNNPOCESSOR", "PCNNPOCESSOR Start PCNN " + gestureCount);
     			PCNNProcessor pcnnThread = new PCNNProcessor(DIM, DIM);
     			pcnnThread.setImages((Vector<Mat>)images.clone());
+    			pcnnThread.setContext(context);
     			images.clear();
     			pcnnThread.start();
     			lastPcnnThread = pcnnThread;

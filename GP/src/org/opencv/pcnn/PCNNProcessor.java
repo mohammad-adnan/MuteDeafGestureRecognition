@@ -14,14 +14,24 @@ import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
 
 import JPCNN.ImageSignature;
+import android.app.Service;
+import android.content.Context;
+import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Environment;
+import android.os.IBinder;
 import android.util.Log;
 
 public class PCNNProcessor extends Thread {
 	String TAG = PCNNProcessor.class.getName();
+	private Context context;
+	public void setContext(Context context) {
+		this.context = context;
+	}
+
 	private int frameNumber = 5;
-	private int numberofcutsitrs = 20;
-	private int Niters = 40;
+	private int numberofcutsitrs = 10;
+	private int Niters = 30;
 	private int vert;
 	private int horz;
 	private Vector<Mat> images;
@@ -40,6 +50,12 @@ public class PCNNProcessor extends Thread {
 		boolean serial = false;
 		int[] signature = (serial?serialPCNN():ThreadPCNN());
 		//do what you want on signature 
+		
+		String result = "1";
+		MediaPlayer mp;
+        mp = MediaPlayer.create(context, R.raw.bombsound);
+        mp.start();
+		
 	}
 
 	int[] ThreadPCNN() {
@@ -98,7 +114,7 @@ public class PCNNProcessor extends Thread {
 			sigStr += IS.gSignature;
 		}
 		
-		SaveSigneture(sigStr);
+		//SaveSigneture(sigStr);
 		Log.i("PCNNPOCESSOR",
 				"PCNNPOCESSOR FINISH in : " + time.getPassedTime() / 1000
 						+ " sec");
@@ -146,7 +162,33 @@ public class PCNNProcessor extends Thread {
 						+ " sec");
 		return imSig.signature;
 	}
+	public class BackgroundSoundService extends Service{
 
+		int sound;
+		public BackgroundSoundService(int sound){
+			this.sound = sound;
+		}
+	    MediaPlayer mp;
+	    public void onCreate()
+	    {   
+	        mp = MediaPlayer.create(this, sound);
+	        mp.setLooping(false);
+	    }
+	    public void onDestroy()
+	    {       
+	        mp.stop();
+	    }
+	    public void onStart(Intent intent,int startid){
+
+	        Log.d("sound", " PCNN On start");
+	        mp.start();
+	    }
+		@Override
+		public IBinder onBind(Intent intent) {
+			// TODO Auto-generated method stub
+			return null;
+		}
+	}
 	public void SaveImage(Mat mat) {
 		File path = new File(
 				Environment
