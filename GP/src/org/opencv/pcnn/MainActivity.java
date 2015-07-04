@@ -8,6 +8,7 @@ import org.opencv.android.CameraBridgeViewBase.CvCameraViewFrame;
 import org.opencv.android.CameraBridgeViewBase.CvCameraViewListener2;
 import org.opencv.android.LoaderCallbackInterface;
 import org.opencv.android.OpenCVLoader;
+import org.opencv.core.CvType;
 import org.opencv.core.Mat;
 import org.opencv.core.Scalar;
 import org.opencv.core.Size;
@@ -34,7 +35,9 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
     
     ProgressBar ProgressBar;
     ImageButton startButton;
+    ImageButton flipButton;
     Context context;
+    int cameraID = 99;
     
     //PCNN data
     private Vector<Mat> images = new Vector<Mat>();
@@ -55,7 +58,9 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
                 case LoaderCallbackInterface.SUCCESS:
                 {
                     Log.i(TAG, "OpenCV loaded successfully");
+                    mOpenCvCameraView.setCameraIndex(mOpenCvCameraView.CAMERA_ID_BACK);
                     mOpenCvCameraView.enableView();
+                    
                 } break;
                 default:
                 {
@@ -103,6 +108,24 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
                 }
             }
         });
+        flipButton = (ImageButton) findViewById(R.id.flip);
+        flipButton.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				 mOpenCvCameraView.disableView();
+				 if(cameraID == mOpenCvCameraView.CAMERA_ID_BACK){
+					 mOpenCvCameraView.setCameraIndex(mOpenCvCameraView.CAMERA_ID_FRONT);
+					 cameraID = mOpenCvCameraView.CAMERA_ID_FRONT;
+					 }
+				 else{
+					 mOpenCvCameraView.setCameraIndex(mOpenCvCameraView.CAMERA_ID_BACK);
+					 cameraID = mOpenCvCameraView.CAMERA_ID_BACK;
+					 }
+                 mOpenCvCameraView.enableView();
+				
+			}
+		});
 		// rotation from 0 to 90 degrees here
 //		float x = bstart.getX(),y = bstart.getY();
 //		RotateAnimation a = new RotateAnimation(0, -90, -bstart.getWidth()/(float)2, -bstart.getHeight()/(float)2);
@@ -149,13 +172,18 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
     int gestureCount = 0;
     PCNNProcessor lastPcnnThread;
     public Mat onCameraFrame(CvCameraViewFrame inputFrame) {
-    	Mat rgba = inputFrame.rgba();
-    	//getTraspose(rgba);
     	
+    	Mat rgba = inputFrame.rgba();
+    	
+    	//getTraspose(rgba);
+    	if(cameraID == mOpenCvCameraView.CAMERA_ID_FRONT)
+    		flip(rgba,rgba, 180);
     	if(gestureCount < GESTURE_NO && start){
     		if(timer.getPassedTime() >= TIME_ITERVAL){
     			timer.reset();
-    			images.add(rgba.clone());
+    			Mat resultMat = new Mat();
+    			flip(rgba,resultMat, -90);
+    			images.add(resultMat);
     			Log.i("PCNNPOCESSOR", "PCNNPOCESSOR Take image " + images.size());
     		}
     		
@@ -186,7 +214,35 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
         return rgba;
     }
     
-    public Mat getTraspose(Mat m){
+    private void flip(Mat targetMat, Mat result, double angle) {
+    	org.opencv.core.Point center = new org.opencv.core.Point(targetMat.width() / 2, targetMat.height() / 2);
+    	Size targetSize = targetMat.size();
+    	Mat rotImage = Imgproc.getRotationMatrix2D(center, angle, 1.0);
+    	//Mat resultMat = new Mat(); // CUBIC
+    	Imgproc.warpAffine(targetMat, result, rotImage, targetSize);
+//    	m1.get(row, col)
+//    	Mat m = new Mat(m1.width(), m1.height(), CvType.CV_64F);
+//    	Imgproc.cvtColor(m1,m,Imgproc.COLOR_RGBA2RGB);
+//    	int total = (int) m.total();
+//    	int channels = m.channels();
+//    	int n = total * channels;
+//    	float[] mdata = new float[n];
+//    	int t = m.type();
+//		m.get(0, 0, mdata);
+//    	
+//    	double[] mdata1 = new double[n];
+//    	
+//    	for(int i = 0 ;i < n;i+=channels){
+//    		int startPixel = n - i - channels - 1;
+//    		for(int j = 0;j < channels;++j){
+//    			mdata1[startPixel + j] = mdata[i + j];
+//    		}
+//    	}
+//    	//Mat mm = new Mat(m.width(), m.height(), m.type());
+//    	m.put(0, 0, mdata1);Imgproc.getr
+	}
+
+	public Mat getTraspose(Mat m){
     	Size s = m.size();
     	float[] mdata = new float[(int) (m.total() * m.channels())];
 		m.get(0, 0, mdata);

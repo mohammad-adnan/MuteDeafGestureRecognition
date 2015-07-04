@@ -10,7 +10,7 @@
         android:visibility="gone"
         android:id="@+id/tutorial1_activity_java_surface_view"
         opencv:show_fps="false"
-        opencv:camera_id="any"/>
+        />
 
     <ImageButton
         android:id="@+id/start"
@@ -28,4 +28,13 @@
         android:layout_gravity="center"
         android:visibility="invisible"/>
 
+    <ImageButton
+        android:id="@+id/flip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/flip" 
+        android:layout_gravity= "top|left"/>
 </FrameLayout>

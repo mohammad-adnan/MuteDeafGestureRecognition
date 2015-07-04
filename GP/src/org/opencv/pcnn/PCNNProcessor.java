@@ -50,12 +50,34 @@ public class PCNNProcessor extends Thread {
 		boolean serial = false;
 		int[] signature = (serial?serialPCNN():ThreadPCNN());
 		//do what you want on signature 
+		int soundFile = 0;
+        playSound(soundFile);
 		
-		String result = "1";
+		
+	}
+
+	private void playSound(int sound) {
 		MediaPlayer mp;
-        mp = MediaPlayer.create(context, R.raw.bombsound);
-        mp.start();
-		
+		switch(sound){
+		case 1:
+			mp = MediaPlayer.create(context, R.raw.sound1);
+	        mp.start();
+			break;
+		case 2:
+			mp = MediaPlayer.create(context, R.raw.sound2);
+	        mp.start();
+			break;
+		case 3:
+			mp = MediaPlayer.create(context, R.raw.sound3);
+	        mp.start();
+			break;
+		case 4:
+			mp = MediaPlayer.create(context, R.raw.sound4);
+	        mp.start();
+			break;
+			default:
+				Log.i("PCNN","PCNNPOCESSOR unknown sound \'" + sound + "\'");		
+		}
 	}
 
 	int[] ThreadPCNN() {
@@ -91,14 +113,14 @@ public class PCNNProcessor extends Thread {
 			ImageSignatureThreads.add(ImgSig);
 
 			// end
-			// SaveImage(dst2);
+			SaveImage(dst2);
 		}
 		
 		for(ImageSignature IS : ImageSignatureThreads){
 			try {
 				IS.join();
 			} catch (InterruptedException e) {
-				Log.i("PCNN","PCNNPOCESSOR jooin error");
+				Log.i("PCNN","PCNNPOCESSOR join error");
 			}
 		}
 		
@@ -154,9 +176,9 @@ public class PCNNProcessor extends Thread {
 			imSig.getSignature(m);
 
 			// end
-			// SaveImage(dst2);
+			 //SaveImage(dst2);
 		}
-		SaveSigneture(imSig.gSignature);
+		//SaveSigneture(imSig.gSignature);
 		Log.i("PCNNPOCESSOR",
 				"PCNNPOCESSOR FINISH in : " + time.getPassedTime() / 1000
 						+ " sec");
