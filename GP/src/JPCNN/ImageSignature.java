@@ -2,6 +2,7 @@ package JPCNN;
 
 
 public class ImageSignature extends Thread{
+	RImage ri;
 	public String  gSignature;
 	int start ; //position in signature array to add new partial image signature
 	public int sigLength; // signature array length 

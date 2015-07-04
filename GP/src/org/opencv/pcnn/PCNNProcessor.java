@@ -7,7 +7,6 @@ import java.io.IOException;
 import java.util.Date;
 import java.util.Vector;
 
-import org.opencv.core.CvType;
 import org.opencv.core.Mat;
 import org.opencv.core.Size;
 import org.opencv.imgcodecs.Imgcodecs;
