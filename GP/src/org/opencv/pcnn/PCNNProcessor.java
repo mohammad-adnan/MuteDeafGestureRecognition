@@ -76,6 +76,8 @@ public class PCNNProcessor extends Thread {
 	        mp.start();
 			break;
 			default:
+				mp = MediaPlayer.create(context, R.raw.bombsound);
+		        mp.start();
 				Log.i("PCNN","PCNNPOCESSOR unknown sound \'" + sound + "\'");		
 		}
 	}
