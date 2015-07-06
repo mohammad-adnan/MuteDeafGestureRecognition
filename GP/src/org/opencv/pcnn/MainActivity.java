@@ -1,5 +1,8 @@
 package org.opencv.pcnn;
 
+import java.io.InputStream;
+import java.util.Date;
+import java.util.Scanner;
 import java.util.Vector;
 
 import org.opencv.android.BaseLoaderCallback;
@@ -28,6 +31,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ProgressBar;
 
+
 public class MainActivity extends Activity implements CvCameraViewListener2 {
     private static final String TAG = "OCVSample::Activity";
 
@@ -43,7 +47,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
     private Vector<Mat> images = new Vector<Mat>();
     MyTimer timer = new MyTimer();
     int FRAME_NO = 5;
-    double TIME_ITERVAL = 200; //time interval in second
+    double TIME_ITERVAL = 500; //time interval in second
     int DIM = 128; //image dimension
     int GESTURE_NO = 1;
     boolean start = false;
@@ -95,6 +99,10 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
         startButton = (ImageButton) findViewById(R.id.start);
         startButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+//            	InputStream inputStream = getResources().openRawResource(R.raw.weights);
+//            	Scanner sc = new Scanner(inputStream);
+//            	float f = sc.nextFloat();
+//            	sc.close();
                 if(finish){
                 	finish = false;
                 	start = true;
@@ -171,20 +179,20 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
     
     int gestureCount = 0;
     PCNNProcessor lastPcnnThread;
+    MyTimer t1 = new MyTimer();
     public Mat onCameraFrame(CvCameraViewFrame inputFrame) {
     	
     	Mat rgba = inputFrame.rgba();
     	
     	//getTraspose(rgba);
-    	if(cameraID == mOpenCvCameraView.CAMERA_ID_FRONT)
-    		flip(rgba,rgba, 180);
     	if(gestureCount < GESTURE_NO && start){
     		if(timer.getPassedTime() >= TIME_ITERVAL){
     			timer.reset();
     			Mat resultMat = new Mat();
-    			flip(rgba,resultMat, -90);
-    			images.add(resultMat);
-    			Log.i("PCNNPOCESSOR", "PCNNPOCESSOR Take image " + images.size());
+    			//flip(rgba,resultMat, -90);
+    			images.add(rgba.clone());
+    			Log.i("PCNNPOCESSOR", "PCNNPOCESSOR Take image " + images.size() + "in time : " + t1.getPassedTime()/1000 + "sec");
+    			t1.reset();
     		}
     		
     		if(FRAME_NO == images.size()){
@@ -193,6 +201,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
     			PCNNProcessor pcnnThread = new PCNNProcessor(DIM, DIM);
     			pcnnThread.setImages((Vector<Mat>)images.clone());
     			pcnnThread.setContext(context);
+    			pcnnThread.setFrontCamera(cameraID == mOpenCvCameraView.CAMERA_ID_FRONT);
     			images.clear();
     			pcnnThread.start();
     			lastPcnnThread = pcnnThread;
@@ -202,6 +211,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
     		start = false;
     		gestureCount = 0;
     		finish = true;
+    		
     		runOnUiThread(new Runnable() {
 				@Override
 				public void run() {
@@ -211,6 +221,9 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
 			});
     		
     	}
+
+    	if(cameraID == mOpenCvCameraView.CAMERA_ID_FRONT)
+    		flip(rgba,rgba, 180);
         return rgba;
     }
     

@@ -16,6 +16,7 @@ int raw sound1 0x7f040001
 int raw sound2 0x7f040002
 int raw sound3 0x7f040003
 int raw sound4 0x7f040004
+int raw weights 0x7f040005
 int string app_name 0x7f050000
 int string bstart 0x7f050001
 int string hello_world 0x7f050003

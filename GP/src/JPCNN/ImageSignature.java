@@ -2,7 +2,6 @@ package JPCNN;
 
 
 public class ImageSignature extends Thread{
-	RImage ri;
 	public String  gSignature;
 	int start ; //position in signature array to add new partial image signature
 	public int sigLength; // signature array length 
@@ -33,7 +32,8 @@ public class ImageSignature extends Thread{
 	public void getSignature(float[][] mat) {
 		RImage stim = new RImage(mat, vert, horz);
 		// stim.LoadByte(path, 18 );
-		// stim.loadImage(m);// I load it in constructor
+		// stim.loadImage(m);//I added this instead of LoadByte I load it in
+		// constructor
 		PCNN Net = new PCNN(vert, horz);
 		Net.vf = 0;
 		stim.div(256);
