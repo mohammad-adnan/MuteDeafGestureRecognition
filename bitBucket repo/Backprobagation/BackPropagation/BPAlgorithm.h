@@ -1,0 +1,20 @@
+#include<vector>
+#include<math.h>
+#include <algorithm>
+#include <string>
+#include"BackPropagationOp.h"
+
+using namespace std;
+#ifndef algorithm
+#define algorithm
+
+class BPAlgorithm
+{public:
+    double scale(double x,double xmin,double xmax);
+  double descale(double x,double xmin,double xmax);
+ void run();
+
+
+
+};
+#endif

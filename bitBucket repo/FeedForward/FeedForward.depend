@@ -1,0 +1,147 @@
+# depslib dependency file v1.0
+1422259249 source:i:\fci\4th year\graduation project\codes\backprobagation\feed2\backpropagationop.cpp
+	<vector>
+	<math.h>
+	<iostream>
+	<fstream>
+	<vector>
+	<math.h>
+	<stdlib.h>
+	<iostream>
+	<iostream>
+	<cstdio>
+	<iostream>
+	<string>
+	<cstring>
+	<vector>
+	<algorithm>
+	<cstdio>
+	<climits>
+	<cctype>
+	<cmath>
+	<sstream>
+	<cstdlib>
+	<climits>
+	<set>
+	<map>
+	<numeric>
+	<utility>
+	<deque>
+	<queue>
+	<stack>
+	<iomanip>
+	<complex>
+	<list>
+	<bitset>
+	<fstream>
+	<limits>
+	<memory.h>
+	<conio.h>
+	<string>
+	<ctime>
+	"BackPropagationOp.h"
+
+1422258024 i:\fci\4th year\graduation project\codes\backprobagation\feed2\backpropagationop.h
+	"Matrix.cpp"
+	<vector>
+
+1422259249 i:\fci\4th year\graduation project\codes\backprobagation\feed2\matrix.cpp
+	<iostream>
+	<vector>
+
+1422259669 source:i:\fci\4th year\graduation project\codes\backprobagation\feed2\feedforwardalgorithm.cpp
+	<vector>
+	<math.h>
+	<algorithm>
+	<string>
+	<time.h>
+	<iostream>
+	<fstream>
+	"FeedForwardAlgorithm.h"
+
+1422259822 i:\fci\4th year\graduation project\codes\backprobagation\feed2\feedforwardalgorithm.h
+	<vector>
+	<math.h>
+	<algorithm>
+	<string>
+	"BackPropagationOp.h"
+
+1422259249 source:i:\fci\4th year\graduation project\codes\backprobagation\feed2\matrix.cpp
+	<iostream>
+	<vector>
+
+1422259249 source:i:\fci\4th year\graduation project\codes\backprobagation\feedforward\backpropagationop.cpp
+	<vector>
+	<math.h>
+	<iostream>
+	<fstream>
+	<vector>
+	<math.h>
+	<stdlib.h>
+	<iostream>
+	<iostream>
+	<cstdio>
+	<iostream>
+	<string>
+	<cstring>
+	<vector>
+	<algorithm>
+	<cstdio>
+	<climits>
+	<cctype>
+	<cmath>
+	<sstream>
+	<cstdlib>
+	<climits>
+	<set>
+	<map>
+	<numeric>
+	<utility>
+	<deque>
+	<queue>
+	<stack>
+	<iomanip>
+	<complex>
+	<list>
+	<bitset>
+	<fstream>
+	<limits>
+	<memory.h>
+	<conio.h>
+	<string>
+	<ctime>
+	"BackPropagationOp.h"
+
+1422258024 i:\fci\4th year\graduation project\codes\backprobagation\feedforward\backpropagationop.h
+	"Matrix.cpp"
+	<vector>
+
+1422259249 i:\fci\4th year\graduation project\codes\backprobagation\feedforward\matrix.cpp
+	<iostream>
+	<vector>
+
+1422359713 source:i:\fci\4th year\graduation project\codes\backprobagation\feedforward\feedforwardalgorithm.cpp
+	<vector>
+	<math.h>
+	<algorithm>
+	<string>
+	<time.h>
+	<iostream>
+	<fstream>
+	"FeedForwardAlgorithm.h"
+
+1422259822 i:\fci\4th year\graduation project\codes\backprobagation\feedforward\feedforwardalgorithm.h
+	<vector>
+	<math.h>
+	<algorithm>
+	<string>
+	"BackPropagationOp.h"
+
+1422259785 source:i:\fci\4th year\graduation project\codes\backprobagation\feedforward\main.cpp
+	<iostream>
+	"FeedForwardAlgorithm.h"
+
+1422259249 source:i:\fci\4th year\graduation project\codes\backprobagation\feedforward\matrix.cpp
+	<iostream>
+	<vector>
+

@@ -1,0 +1,42 @@
+2000 iterationer:
+original:
+
+./runy  36,07s user 0,85s system 100% cpu 36,916 total
+./runy  36,15s user 0,86s system 100% cpu 36,984 total
+./runy  36,02s user 0,85s system 99% cpu 36,872 total
+./runy  36,01s user 0,89s system 99% cpu 37,219 total
+./runy  36,08s user 0,88s system 100% cpu 36,957 total
+
+Efter "Tue Feb 22 20:50:48 CET 2005  Rasmus Kaj <kaj@kth.se>"
+
+./runy  5,11s user 0,82s system 100% cpu 5,920 total
+./runy  5,07s user 0,86s system 99% cpu 5,932 total
+./runy  5,12s user 0,82s system 100% cpu 5,931 total
+./runy  5,13s user 0,81s system 99% cpu 5,947 total
+./runy  5,15s user 0,79s system 100% cpu 5,933 total
+
+Efter "Wed Feb 23 00:20:26 CET 2005  Rasmus Kaj <kaj@kth.se>"
+
+./runy  4,51s user 0,27s system 99% cpu 4,782 total
+./runy  4,49s user 0,28s system 99% cpu 4,772 total
+./runy  4,47s user 0,29s system 99% cpu 4,765 total
+./runy  4,48s user 0,29s system 99% cpu 4,773 total
+./runy  4,49s user 0,28s system 99% cpu 4,774 total
+
+
+3500 iterationer
+original:
+
+./runy  62,86s user 1,49s system 99% cpu 1:04,38 total
+./runy  62,93s user 1,49s system 99% cpu 1:04,54 total
+./runy  62,85s user 1,52s system 100% cpu 1:04,35 total
+./runy  64,68s user 1,53s system 100% cpu 1:06,20 total
+./runy  62,89s user 1,45s system 99% cpu 1:04,67 total
+
+fixat:
+
+./runy  7,76s user 0,51s system 99% cpu 8,282 total
+./runy  7,79s user 0,49s system 99% cpu 8,310 total
+./runy  7,81s user 0,48s system 100% cpu 8,288 total
+./runy  7,80s user 0,49s system 100% cpu 8,283 total
+./runy  7,77s user 0,50s system 99% cpu 8,283 total

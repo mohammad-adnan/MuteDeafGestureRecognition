@@ -1,0 +1,533 @@
+# depslib dependency file v1.0
+1396855564 source:i:\fci\3rd year\cs_2nd_term\cs463_neural networks\assignments\backpropagation\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<math.h>
+	"BackProgAlgo.cpp"
+
+1396832188 source:i:\fci\3rd year\cs_2nd_term\cs463_neural networks\assignments\backpropagation\matrix.cpp
+	<vector>
+	<iostream>
+
+1396832188 i:\fci\3rd year\cs_2nd_term\cs463_neural networks\assignments\backpropagation\matrix.cpp
+	<vector>
+	<iostream>
+
+1396855791 source:i:\fci\3rd year\cs_2nd_term\cs463_neural networks\assignments\backpropagation\backprogalgo.cpp
+	"Matrix.cpp"
+	<vector>
+	<math.h>
+
+1396855791 i:\fci\3rd year\cs_2nd_term\cs463_neural networks\assignments\backpropagation\backprogalgo.cpp
+	"Matrix.cpp"
+	<vector>
+	<math.h>
+
+1400479720 source:i:\fci\3rd year\cs_2nd_term\cs463_neural networks\assignments\assignment2\neuralnetworksassignment2\kfold\backpropagation\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<math.h>
+	<stdlib.h>
+	<iostream>
+	<iostream>
+	<cstdio>
+	<iostream>
+	<string>
+	<cstring>
+	<vector>
+	<algorithm>
+	<cstdio>
+	<climits>
+	<cctype>
+	<cmath>
+	<sstream>
+	<cstdlib>
+	<climits>
+	<ctime>
+	<set>
+	<map>
+	<numeric>
+	<utility>
+	<deque>
+	<queue>
+	<stack>
+	<iomanip>
+	<complex>
+	<list>
+	<bitset>
+	<fstream>
+	<limits>
+	<memory.h>
+	<conio.h>
+	<string>
+	"BackProgAlgo.cpp"
+
+1400457036 i:\fci\3rd year\cs_2nd_term\cs463_neural networks\assignments\assignment2\neuralnetworksassignment2\kfold\backpropagation\backprogalgo.cpp
+	"Matrix.cpp"
+	<vector>
+	<math.h>
+	<iostream>
+	<fstream>
+	<vector>
+	<math.h>
+	<stdlib.h>
+	<iostream>
+	<iostream>
+	<cstdio>
+	<iostream>
+	<string>
+	<cstring>
+	<vector>
+	<algorithm>
+	<cstdio>
+	<climits>
+	<cctype>
+	<cmath>
+	<sstream>
+	<cstdlib>
+	<climits>
+	<ctime>
+	<set>
+	<map>
+	<numeric>
+	<utility>
+	<deque>
+	<queue>
+	<stack>
+	<iomanip>
+	<complex>
+	<list>
+	<bitset>
+	<fstream>
+	<limits>
+	<memory.h>
+	<conio.h>
+	<string>
+
+1396835788 i:\fci\3rd year\cs_2nd_term\cs463_neural networks\assignments\assignment2\neuralnetworksassignment2\kfold\backpropagation\matrix.cpp
+	<vector>
+	<iostream>
+
+1396835788 source:i:\fci\3rd year\cs_2nd_term\cs463_neural networks\assignments\assignment2\neuralnetworksassignment2\kfold\backpropagation\matrix.cpp
+	<vector>
+	<iostream>
+
+1400457036 source:i:\fci\3rd year\cs_2nd_term\cs463_neural networks\assignments\assignment2\neuralnetworksassignment2\kfold\backpropagation\backprogalgo.cpp
+	"Matrix.cpp"
+	<vector>
+	<math.h>
+	<iostream>
+	<fstream>
+	<vector>
+	<math.h>
+	<stdlib.h>
+	<iostream>
+	<iostream>
+	<cstdio>
+	<iostream>
+	<string>
+	<cstring>
+	<vector>
+	<algorithm>
+	<cstdio>
+	<climits>
+	<cctype>
+	<cmath>
+	<sstream>
+	<cstdlib>
+	<climits>
+	<ctime>
+	<set>
+	<map>
+	<numeric>
+	<utility>
+	<deque>
+	<queue>
+	<stack>
+	<iomanip>
+	<complex>
+	<list>
+	<bitset>
+	<fstream>
+	<limits>
+	<memory.h>
+	<conio.h>
+	<string>
+
+1416046207 source:i:\fci\4th year\graduation project\codes\backprobagation\backpropagation\backprogalgo.cpp
+	"Matrix.cpp"
+	<vector>
+	<math.h>
+	<iostream>
+	<fstream>
+	<vector>
+	<math.h>
+	<stdlib.h>
+	<iostream>
+	<iostream>
+	<cstdio>
+	<iostream>
+	<string>
+	<cstring>
+	<vector>
+	<algorithm>
+	<cstdio>
+	<climits>
+	<cctype>
+	<cmath>
+	<sstream>
+	<cstdlib>
+	<climits>
+	<set>
+	<map>
+	<numeric>
+	<utility>
+	<deque>
+	<queue>
+	<stack>
+	<iomanip>
+	<complex>
+	<list>
+	<bitset>
+	<fstream>
+	<limits>
+	<memory.h>
+	<conio.h>
+	<string>
+	<ctime>
+
+1422280505 i:\fci\4th year\graduation project\codes\backprobagation\backpropagation\matrix.cpp
+	<iostream>
+	<vector>
+
+1422280505 source:i:\fci\4th year\graduation project\codes\backprobagation\backpropagation\matrix.cpp
+	<iostream>
+	<vector>
+
+1422253822 source:i:\fci\4th year\graduation project\codes\backprobagation\backpropagation\main.cpp
+	<iostream>
+	"BPAlgorithm.h"
+
+1416046207 i:\fci\4th year\graduation project\codes\backprobagation\backpropagation\backprogalgo.cpp
+	"Matrix.cpp"
+	<vector>
+	<math.h>
+	<iostream>
+	<fstream>
+	<vector>
+	<math.h>
+	<stdlib.h>
+	<iostream>
+	<iostream>
+	<cstdio>
+	<iostream>
+	<string>
+	<cstring>
+	<vector>
+	<algorithm>
+	<cstdio>
+	<climits>
+	<cctype>
+	<cmath>
+	<sstream>
+	<cstdlib>
+	<climits>
+	<set>
+	<map>
+	<numeric>
+	<utility>
+	<deque>
+	<queue>
+	<stack>
+	<iomanip>
+	<complex>
+	<list>
+	<bitset>
+	<fstream>
+	<limits>
+	<memory.h>
+	<conio.h>
+	<string>
+	<ctime>
+
+1416046207 source:i:\fci\4th year\graduation project\codes\backprobagation\2\backprogalgo.cpp
+	"Matrix.cpp"
+	<vector>
+	<math.h>
+	<iostream>
+	<fstream>
+	<vector>
+	<math.h>
+	<stdlib.h>
+	<iostream>
+	<iostream>
+	<cstdio>
+	<iostream>
+	<string>
+	<cstring>
+	<vector>
+	<algorithm>
+	<cstdio>
+	<climits>
+	<cctype>
+	<cmath>
+	<sstream>
+	<cstdlib>
+	<climits>
+	<set>
+	<map>
+	<numeric>
+	<utility>
+	<deque>
+	<queue>
+	<stack>
+	<iomanip>
+	<complex>
+	<list>
+	<bitset>
+	<fstream>
+	<limits>
+	<memory.h>
+	<conio.h>
+	<string>
+	<ctime>
+
+1422253712 i:\fci\4th year\graduation project\codes\backprobagation\2\matrix.cpp
+	<iostream>
+	<vector>
+
+1422253822 source:i:\fci\4th year\graduation project\codes\backprobagation\2\main.cpp
+	<iostream>
+	"BPAlgorithm.h"
+
+1416046207 i:\fci\4th year\graduation project\codes\backprobagation\2\backprogalgo.cpp
+	"Matrix.cpp"
+	<vector>
+	<math.h>
+	<iostream>
+	<fstream>
+	<vector>
+	<math.h>
+	<stdlib.h>
+	<iostream>
+	<iostream>
+	<cstdio>
+	<iostream>
+	<string>
+	<cstring>
+	<vector>
+	<algorithm>
+	<cstdio>
+	<climits>
+	<cctype>
+	<cmath>
+	<sstream>
+	<cstdlib>
+	<climits>
+	<set>
+	<map>
+	<numeric>
+	<utility>
+	<deque>
+	<queue>
+	<stack>
+	<iomanip>
+	<complex>
+	<list>
+	<bitset>
+	<fstream>
+	<limits>
+	<memory.h>
+	<conio.h>
+	<string>
+	<ctime>
+
+1422253712 source:i:\fci\4th year\graduation project\codes\backprobagation\2\matrix.cpp
+	<iostream>
+	<vector>
+
+1422251098 source:i:\fci\4th year\graduation project\codes\backprobagation\2\backpropagationop.cpp
+	<vector>
+	<math.h>
+	<iostream>
+	<fstream>
+	<vector>
+	<math.h>
+	<stdlib.h>
+	<iostream>
+	<iostream>
+	<cstdio>
+	<iostream>
+	<string>
+	<cstring>
+	<vector>
+	<algorithm>
+	<cstdio>
+	<climits>
+	<cctype>
+	<cmath>
+	<sstream>
+	<cstdlib>
+	<climits>
+	<set>
+	<map>
+	<numeric>
+	<utility>
+	<deque>
+	<queue>
+	<stack>
+	<iomanip>
+	<complex>
+	<list>
+	<bitset>
+	<fstream>
+	<limits>
+	<memory.h>
+	<conio.h>
+	<string>
+	<ctime>
+	"BackPropagationOp.h"
+
+1422154402 i:\fci\4th year\graduation project\codes\backprobagation\2\backpropagationop.cpp
+	"Matrix.cpp"
+	<vector>
+	<math.h>
+	<iostream>
+	<fstream>
+	<vector>
+	<math.h>
+	<stdlib.h>
+	<iostream>
+	<iostream>
+	<cstdio>
+	<iostream>
+	<string>
+	<cstring>
+	<vector>
+	<algorithm>
+	<cstdio>
+	<climits>
+	<cctype>
+	<cmath>
+	<sstream>
+	<cstdlib>
+	<climits>
+	<set>
+	<map>
+	<numeric>
+	<utility>
+	<deque>
+	<queue>
+	<stack>
+	<iomanip>
+	<complex>
+	<list>
+	<bitset>
+	<fstream>
+	<limits>
+	<memory.h>
+	<conio.h>
+	<string>
+	<ctime>
+	"BackPropagationOp.h"
+
+1422256948 i:\fci\4th year\graduation project\codes\backprobagation\2\backpropagationop.h
+	"Matrix.cpp"
+	<vector>
+
+1422253676 i:\fci\4th year\graduation project\codes\backprobagation\2\matrix.h
+	<iostream>
+	<vector>
+
+1422256926 source:i:\fci\4th year\graduation project\codes\backprobagation\2\bpalgorithm.cpp
+	<vector>
+	<math.h>
+	<algorithm>
+	<string>
+	<time.h>
+	<iostream>
+	<fstream>
+	"BPAlgorithm.h"
+
+1422248840 i:\fci\4th year\graduation project\codes\backprobagation\2\bpalgorithm.cpp
+	<vector>
+	<math.h>
+	<algorithm>
+	<string>
+	<time.h>
+	<iostream>
+	<fstream>
+	"BackPropagationOp.h"
+
+1422253751 i:\fci\4th year\graduation project\codes\backprobagation\2\bpalgorithm.h
+	<vector>
+	<math.h>
+	<algorithm>
+	<string>
+	"BackPropagationOp.h"
+
+1422280811 source:i:\fci\4th year\graduation project\codes\backprobagation\backpropagation\backpropagationop.cpp
+	<vector>
+	<math.h>
+	<iostream>
+	<fstream>
+	<vector>
+	<math.h>
+	<stdlib.h>
+	<iostream>
+	<iostream>
+	<cstdio>
+	<iostream>
+	<string>
+	<cstring>
+	<vector>
+	<algorithm>
+	<cstdio>
+	<climits>
+	<cctype>
+	<cmath>
+	<sstream>
+	<cstdlib>
+	<climits>
+	<set>
+	<map>
+	<numeric>
+	<utility>
+	<deque>
+	<queue>
+	<stack>
+	<iomanip>
+	<complex>
+	<list>
+	<bitset>
+	<fstream>
+	<limits>
+	<memory.h>
+	<conio.h>
+	<string>
+	<ctime>
+	"BackPropagationOp.h"
+
+1422367375 i:\fci\4th year\graduation project\codes\backprobagation\backpropagation\backpropagationop.h
+	"Matrix.cpp"
+	<vector>
+
+1422253751 i:\fci\4th year\graduation project\codes\backprobagation\backpropagation\bpalgorithm.h
+	<vector>
+	<math.h>
+	<algorithm>
+	<string>
+	"BackPropagationOp.h"
+
+1422360629 source:i:\fci\4th year\graduation project\codes\backprobagation\backpropagation\bpalgorithm.cpp
+	<vector>
+	<math.h>
+	<algorithm>
+	<string>
+	<time.h>
+	<iostream>
+	<fstream>
+	"BPAlgorithm.h"
+
