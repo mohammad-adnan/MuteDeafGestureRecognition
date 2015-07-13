@@ -1,0 +1,1265 @@
+mohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.983693  nearest to 4 MSE NO 
+7.80552 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.985504  nearest to 4 MSE NO 
+7.82699 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.980211  nearest to 4 MSE NO 
+7.7643 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0801805  nearest to 1 MSE NO 
+0.769471 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.644754  nearest to 3 MSE NO 
+4.30494 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.102599  nearest to 1 MSE NO 
+0.855165 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.909719  nearest to 4 MSE NO 
+6.9533 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.490814  nearest to 2 MSE NO 
+3.05648 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.614805  nearest to 3 MSE NO 
+4.04535 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.469098  nearest to 2 MSE NO 
+2.89753 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.935971  nearest to 4 MSE NO 
+7.2501 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.189401  nearest to 2 MSE NO 
+1.22963 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.804508  nearest to 3 MSE NO 
+5.82607 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.844934  nearest to 4 MSE NO 
+6.24742 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0250093  nearest to 1 MSE NO 
+0.577843 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.307207  nearest to 2 MSE NO 
+1.84631 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0789558  nearest to 1 MSE NO 
+0.76492 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.336487  nearest to 2 MSE NO 
+2.01896 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.186127  nearest to 2 MSE NO 
+1.21427 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.3559  nearest to 2 MSE NO 
+2.13769 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.294372  nearest to 2 MSE NO 
+1.77306 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.204781  nearest to 2 MSE NO 
+1.30305 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.355822  nearest to 2 MSE NO 
+2.13721 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.253405  nearest to 2 MSE NO 
+1.54918 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.311094  nearest to 2 MSE NO 
+1.86879 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.264044  nearest to 2 MSE NO 
+1.60587 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.970672  nearest to 4 MSE NO 
+7.65193 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.492253  nearest to 2 MSE NO 
+3.06717 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0873654  nearest to 1 MSE NO 
+0.796443 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.987481  nearest to 4 MSE NO 
+7.85048 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.985502  nearest to 4 MSE NO 
+7.82697 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.984508  nearest to 4 MSE NO 
+7.81518 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.936862  nearest to 4 MSE NO 
+7.26028 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.113221  nearest to 1 MSE NO 
+0.897348 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.773815  nearest to 3 MSE NO 
+5.516 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.740035  nearest to 3 MSE NO 
+5.18454 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.319262  nearest to 2 MSE NO 
+1.91646 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.584011  nearest to 3 MSE NO 
+3.78684 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0721113  nearest to 1 MSE NO 
+0.739734 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0564498  nearest to 1 MSE NO 
+0.683689 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.332523  nearest to 2 MSE NO 
+1.99514 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.227561  nearest to 2 MSE NO 
+1.41571 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0294299  nearest to 1 MSE NO 
+0.592187 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.130692  nearest to 1 MSE NO 
+0.96894 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.018709  nearest to 1 MSE NO 
+0.557702 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0100671  nearest to 1 MSE NO 
+0.530657 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.717534  nearest to 3 MSE NO 
+4.96945 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.272284  nearest to 2 MSE NO 
+1.65047 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0362872  nearest to 1 MSE NO 
+0.614787 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0220839  nearest to 1 MSE NO 
+0.568446 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0247899  nearest to 1 MSE NO 
+0.577135 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0586056  nearest to 1 MSE NO 
+0.691273 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.396329  nearest to 2 MSE NO 
+2.39583 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.175021  nearest to 2 MSE NO 
+1.16291 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0471283  nearest to 1 MSE NO 
+0.65138 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.035251  nearest to 1 MSE NO 
+0.611345 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.946104  nearest to 3 MSE NO 
+4.18244 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.890734  nearest to 3 MSE NO 
+3.86828 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.13023  nearest to 1 MSE NO 
+0.79438 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.189296  nearest to 1 MSE NO 
+0.950258 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.103568  nearest to 1 MSE NO 
+0.728589 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.078436  nearest to 1 MSE NO 
+0.669176 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.109873  nearest to 1 MSE NO 
+0.74389 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0480386  nearest to 1 MSE NO 
+0.600693 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.576999  nearest to 2 MSE NO 
+2.31985 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.581601  nearest to 2 MSE NO 
+2.33972 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.236676  nearest to 1 MSE NO 
+1.08538 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.619156  nearest to 2 MSE NO 
+2.50502 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.665221  nearest to 2 MSE NO 
+2.71548 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.494529  nearest to 2 MSE NO 
+1.97818 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.984812  nearest to 3 MSE NO 
+4.40933 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.318996  nearest to 2 MSE NO 
+1.34151 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.666288  nearest to 2 MSE NO 
+2.72045 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.994396  nearest to 3 MSE NO 
+4.46644 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.205014  nearest to 1 MSE NO 
+0.99409 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.644409  nearest to 2 MSE NO 
+2.61935 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.996218  nearest to 3 MSE NO 
+4.47734 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.99764  nearest to 3 MSE NO 
+4.48585 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0232624  nearest to 1 MSE NO 
+0.547607 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.995477  nearest to 3 MSE NO 
+4.47291 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.685426  nearest to 2 MSE NO 
+2.81047 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0275837  nearest to 1 MSE NO 
+0.556689 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.122003  nearest to 1 MSE NO 
+0.773776 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0236599  nearest to 1 MSE NO 
+0.548439 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0227071  nearest to 1 MSE NO 
+0.546445 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0226221  nearest to 1 MSE NO 
+0.546268 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0227565  nearest to 1 MSE NO 
+0.546549 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.464916  nearest to 2 MSE NO 
+1.86213 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.025079  nearest to 1 MSE NO 
+0.551416 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.464234  nearest to 2 MSE NO 
+1.85949 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0252482  nearest to 1 MSE NO 
+0.551771 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.259162  nearest to 2 MSE NO 
+1.15266 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0388647  nearest to 1 MSE NO 
+0.58075 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0390179  nearest to 1 MSE NO 
+0.581081 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.992781  nearest to 3 MSE NO 
+4.45679 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.686305  nearest to 2 MSE NO 
+2.81464 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.774051  nearest to 3 MSE NO 
+3.24641 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.78247  nearest to 3 MSE NO 
+3.28946 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.582734  nearest to 2 MSE NO 
+2.34463 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.98905  nearest to 3 MSE NO 
+4.43454 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.181992  nearest to 1 MSE NO 
+0.930226 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0368046  nearest to 1 MSE NO 
+0.576318 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0615226  nearest to 1 MSE NO 
+0.630615 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0229899  nearest to 1 MSE NO 
+0.547037 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.989796  nearest to 3 MSE NO 
+4.43898 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.872049  nearest to 3 MSE NO 
+3.76503 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.6043  nearest to 2 MSE NO 
+2.43896 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.190706  nearest to 1 MSE NO 
+0.954148 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.716336  nearest to 2 MSE NO 
+2.95895 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0326393  nearest to 1 MSE NO 
+0.567409 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.378694  nearest to 2 MSE NO 
+1.54421 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.501909  nearest to 2 MSE NO 
+2.00764 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.885307  nearest to 3 MSE NO 
+3.83815 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.912946  nearest to 3 MSE NO 
+3.99283 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.803354  nearest to 3 MSE NO 
+3.39746 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.931503  nearest to 3 MSE NO 
+4.0984 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.94742  nearest to 3 MSE NO 
+4.19005 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.811621  nearest to 3 MSE NO 
+3.4407 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.986502  nearest to 3 MSE NO 
+4.41938 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.996529  nearest to 3 MSE NO 
+4.4792 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.991883  nearest to 3 MSE NO 
+4.45143 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.562421  nearest to 2 MSE NO 
+2.25748 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.997023  nearest to 3 MSE NO 
+4.48216 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.986504  nearest to 3 MSE NO 
+4.41939 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.731141  nearest to 2 MSE NO 
+3.03142 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.994563  nearest to 3 MSE NO 
+4.46743 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0230906  nearest to 1 MSE NO 
+0.547247 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0227415  nearest to 1 MSE NO 
+0.546517 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.025647  nearest to 1 MSE NO 
+0.552609 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0953431  nearest to 1 MSE NO 
+0.708867 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0227389  nearest to 1 MSE NO 
+0.546512 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0226311  nearest to 1 MSE NO 
+0.546287 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0226198  nearest to 1 MSE NO 
+0.546263 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0226199  nearest to 1 MSE NO 
+0.546263 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0226309  nearest to 1 MSE NO 
+0.546286 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0226266  nearest to 1 MSE NO 
+0.546277 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.269885  nearest to 2 MSE NO 
+1.18545 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0435907  nearest to 1 MSE NO 
+0.590982 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0231651  nearest to 1 MSE NO 
+0.547404 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0226417  nearest to 1 MSE NO 
+0.546309 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0231669  nearest to 1 MSE NO 
+0.547407 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.116788  nearest to 1 MSE NO 
+0.760855 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0769034  nearest to 1 MSE NO 
+0.665635 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.229174  nearest to 1 MSE NO 
+1.06339 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0296354  nearest to 1 MSE NO 
+0.561027 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0527688  nearest to 1 MSE NO 
+0.611107 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0409855  nearest to 1 MSE NO 
+0.585331 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0257408  nearest to 1 MSE NO 
+0.552807 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0253962  nearest to 1 MSE NO 
+0.552082 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0385452  nearest to 1 MSE NO 
+0.580062 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0237195  nearest to 1 MSE NO 
+0.548564 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0261702  nearest to 1 MSE NO 
+0.55371 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.024251  nearest to 1 MSE NO 
+0.549678 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0252591  nearest to 1 MSE NO 
+0.551794 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.023833  nearest to 1 MSE NO 
+0.548802 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0305892  nearest to 1 MSE NO 
+0.56305 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0423931  nearest to 1 MSE NO 
+0.58838 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0292061  nearest to 1 MSE NO 
+0.560118 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0318486  nearest to 1 MSE NO 
+0.565726 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0469813  nearest to 1 MSE NO 
+0.598377 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0658894  nearest to 1 MSE NO 
+0.640462 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.275842  nearest to 2 MSE NO 
+1.20386 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0545828  nearest to 1 MSE NO 
+0.615124 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0344801  nearest to 1 MSE NO 
+0.571338 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0432022  nearest to 1 MSE NO 
+0.590137 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0286636  nearest to 1 MSE NO 
+0.55897 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0434491  nearest to 1 MSE NO 
+0.590674 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.111842  nearest to 1 MSE NO 
+0.748702 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0232425  nearest to 1 MSE NO 
+0.547565 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0233278  nearest to 1 MSE NO 
+0.547744 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0247047  nearest to 1 MSE NO 
+0.55063 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0236131  nearest to 1 MSE NO 
+0.548341 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0239777  nearest to 1 MSE NO 
+0.549105 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0227337  nearest to 1 MSE NO 
+0.546501 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0226631  nearest to 1 MSE NO 
+0.546354 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0227755  nearest to 1 MSE NO 
+0.546588 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0233302  nearest to 1 MSE NO 
+0.547749 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0229887  nearest to 1 MSE NO 
+0.547034 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0228214  nearest to 1 MSE NO 
+0.546684 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0233773  nearest to 1 MSE NO 
+0.547848 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0504844  nearest to 1 MSE NO 
+0.606066 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0292828  nearest to 1 MSE NO 
+0.56028 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.15612  nearest to 1 MSE NO 
+0.860986 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.116263  nearest to 1 MSE NO 
+0.759559 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0407619  nearest to 1 MSE NO 
+0.584847 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0322499  nearest to 1 MSE NO 
+0.56658 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.277114  nearest to 2 MSE NO 
+1.20781 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0819435  nearest to 1 MSE NO 
+0.677316 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0259667  nearest to 1 MSE NO 
+0.553282 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0386815  nearest to 1 MSE NO 
+0.580355 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0242071  nearest to 1 MSE NO 
+0.549586 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0630315  nearest to 1 MSE NO 
+0.634009 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0275629  nearest to 1 MSE NO 
+0.556645 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0232575  nearest to 1 MSE NO 
+0.547597 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0285672  nearest to 1 MSE NO 
+0.558767 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0240528  nearest to 1 MSE NO 
+0.549263 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0230905  nearest to 1 MSE NO 
+0.547247 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.033345  nearest to 1 MSE NO 
+0.568914 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0564753  nearest to 1 MSE NO 
+0.61933 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0312945  nearest to 1 MSE NO 
+0.564548 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0312584  nearest to 1 MSE NO 
+0.564471 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0234777  nearest to 1 MSE NO 
+0.548058 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0240214  nearest to 1 MSE NO 
+0.549197 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0245573  nearest to 1 MSE NO 
+0.550321 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0241487  nearest to 1 MSE NO 
+0.549464 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0228844  nearest to 1 MSE NO 
+0.546816 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0234124  nearest to 1 MSE NO 
+0.547921 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0245522  nearest to 1 MSE NO 
+0.55031 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.023484  nearest to 1 MSE NO 
+0.548071 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0249934  nearest to 1 MSE NO 
+0.551236 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0226546  nearest to 1 MSE NO 
+0.546336 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0227431  nearest to 1 MSE NO 
+0.546521 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0226233  nearest to 1 MSE NO 
+0.54627 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.022716  nearest to 1 MSE NO 
+0.546464 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0226399  nearest to 1 MSE NO 
+0.546305 nomohamed vecn 1013  100
+1  3
+  Actual output     Excepected output
+0.0226683  nearest to 1 MSE NO 
+0.546364 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0199899  nearest to 1 MSE NO 
+0.561768 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0832828  nearest to 1 MSE NO 
+0.781061 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.486909  nearest to 2 MSE NO 
+3.02759 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0413036  nearest to 1 MSE NO 
+0.631588 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0664263  nearest to 1 MSE NO 
+0.719135 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.213503  nearest to 2 MSE NO 
+1.34564 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0207119  nearest to 1 MSE NO 
+0.564066 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.162867  nearest to 1 MSE NO 
+1.10797 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.584441  nearest to 3 MSE NO 
+3.79039 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.183647  nearest to 2 MSE NO 
+1.20271 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0935943  nearest to 1 MSE NO 
+0.820202 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0480138  nearest to 1 MSE NO 
+0.654416 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0240455  nearest to 1 MSE NO 
+0.574738 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.51854  nearest to 3 MSE NO 
+3.2656 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.498715  nearest to 2 MSE NO 
+3.11537 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.342568  nearest to 2 MSE NO 
+2.05579 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.646156  nearest to 3 MSE NO 
+4.31729 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.990481  nearest to 4 MSE NO 
+7.88618 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0365198  nearest to 1 MSE NO 
+0.615561 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.103928  nearest to 1 MSE NO 
+0.860389 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.858254  nearest to 4 MSE NO 
+6.38946 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.996334  nearest to 4 MSE NO 
+7.95607 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.606242  nearest to 3 MSE NO 
+3.97261 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0347141  nearest to 1 MSE NO 
+0.609565 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.776081  nearest to 3 MSE NO 
+5.5386 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.820565  nearest to 3 MSE NO 
+5.99166 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.990491  nearest to 4 MSE NO 
+7.8863 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.180364  nearest to 2 MSE NO 
+1.18748 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.983815  nearest to 4 MSE NO 
+7.80696 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0178117  nearest to 1 MSE NO 
+0.554863 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.901173  nearest to 4 MSE NO 
+6.85803 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0934176  nearest to 1 MSE NO 
+0.819524 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.448775  nearest to 2 MSE NO 
+2.75262 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0193672  nearest to 1 MSE NO 
+0.559789 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.130449  nearest to 1 MSE NO 
+0.967921 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.193803  nearest to 2 MSE NO 
+1.25042 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.539414  nearest to 3 MSE NO 
+3.4276 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0448562  nearest to 1 MSE NO 
+0.643623 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.863369  nearest to 4 MSE NO 
+6.44443 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.856705  nearest to 4 MSE NO 
+6.37286 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.951713  nearest to 4 MSE NO 
+7.43105 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0454313  nearest to 1 MSE NO 
+0.645582 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0756533  nearest to 1 MSE NO 
+0.752715 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.788392  nearest to 3 MSE NO 
+5.6622 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.565181  nearest to 3 MSE NO 
+3.63298 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.85382  nearest to 4 MSE NO 
+6.34199 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.899919  nearest to 4 MSE NO 
+6.8441 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0965023  nearest to 1 MSE NO 
+0.831414 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.736735  nearest to 3 MSE NO 
+5.15271 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0240432  nearest to 1 MSE NO 
+0.574731 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0200235  nearest to 1 MSE NO 
+0.561875 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.024022  nearest to 1 MSE NO 
+0.574663 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0176932  nearest to 1 MSE NO 
+0.554488 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0381462  nearest to 1 MSE NO 
+0.620987 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.359322  nearest to 2 MSE NO 
+2.15897 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.621358  nearest to 3 MSE NO 
+4.10146 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.730946  nearest to 3 MSE NO 
+5.0971 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0756883  nearest to 1 MSE NO 
+0.752844 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0525238  nearest to 1 MSE NO 
+0.669986 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.337712  nearest to 2 MSE NO 
+2.02636 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.928147  nearest to 4 MSE NO 
+7.161 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.878307  nearest to 4 MSE NO 
+6.60632 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0236612  nearest to 1 MSE NO 
+0.573503 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0176433  nearest to 1 MSE NO 
+0.554331 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0505027  nearest to 1 MSE NO 
+0.662986 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.572708  nearest to 3 MSE NO 
+3.6941 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0395964  nearest to 1 MSE NO 
+0.625845 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.553462  nearest to 3 MSE NO 
+3.53883 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0997264  nearest to 1 MSE NO 
+0.843933 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.638937  nearest to 3 MSE NO 
+4.25389 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.104468  nearest to 1 MSE NO 
+0.862515 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0830489  nearest to 1 MSE NO 
+0.780184 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.108645  nearest to 1 MSE NO 
+0.879053 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0470023  nearest to 1 MSE NO 
+0.650948 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0843122  nearest to 1 MSE NO 
+0.784925 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.152384  nearest to 1 MSE NO 
+1.06165 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.326113  nearest to 2 MSE NO 
+1.95691 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0875446  nearest to 1 MSE NO 
+0.797122 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0396639  nearest to 1 MSE NO 
+0.626071 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.347417  nearest to 2 MSE NO 
+2.0854 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.644193  nearest to 3 MSE NO 
+4.30001 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0295175  nearest to 1 MSE NO 
+0.592473 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.017122  nearest to 1 MSE NO 
+0.552685 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.414071  nearest to 2 MSE NO 
+2.51376 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.1326  nearest to 1 MSE NO 
+0.976923 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0402357  nearest to 1 MSE NO 
+0.627992 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.14424  nearest to 1 MSE NO 
+1.02634 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.41045  nearest to 2 MSE NO 
+2.48946 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0275786  nearest to 1 MSE NO 
+0.586158 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0233888  nearest to 1 MSE NO 
+0.572628 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0274508  nearest to 1 MSE NO 
+0.585743 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0241554  nearest to 1 MSE NO 
+0.575092 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0226868  nearest to 1 MSE NO 
+0.570377 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0324851  nearest to 1 MSE NO 
+0.602204 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0426439  nearest to 1 MSE NO 
+0.636115 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0519309  nearest to 1 MSE NO 
+0.667929 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.13995  nearest to 1 MSE NO 
+1.00799 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.018507  nearest to 1 MSE NO 
+0.557062 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.0691995  nearest to 1 MSE NO 
+0.729147 nomohamed vecn 1013  100
+1  4
+  Actual output     Excepected output
+0.333179  nearest to 2 MSE NO 
+1.99907 no
